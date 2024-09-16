@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main_h1{
+
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+    
+  
+
+
+header{
+        width: 100%;
+            height: 100px;
+
+
+}
+nav{
+text-align: center;
+}
+
+#nav_esq, #nav_dir{
+    display: inline-block;
+        width: 550px;
+                /* background-color: rgb(235, 206, 235); */
+
+
+}
+
+#nav_esq a, #nav_dir a{
+    text-decoration: none;
+        text-transform: uppercase;
+            padding: 10px;
+                color: rgb(0, 0, 0);
+                    font-weight: bold;             
+
+}
+
+#nav_dir a:hover,#nav_esq     a:hover{
+    background-color: rgb(255, 0, 0);
+   
+    
+
+
+
+}
+.menu_atual{
+        background-color: rgb(255, 0, 0);
+
+    
+}
+#nav_logo{
+    display: inline-block;
+        width: 108px;
+            height: 80px;
+            background-color: rgb(184, 43, 1);
+                margin-left: 20px;
+                margin-right: 20px;
+                    background-image: url(../img/Icons/logoNav.png);
+                        background-repeat: no-repeat;
+                            background-position: center center;
+                                background-size: cover;
+                        }                       
+
+#nav_dir{
+    display: inline-block;
+        width: 550px;
+
+
+
+}
+
+
+main
+{
+    background-color: rgb(239, 242, 242);
+        width: 100%;
+            height: 1100px;
+            h1{
+                margin: 35px;
+            }
+main_h1{   font-family: "Lobster", sans-serif;
+font-weight: 400;
+font-style: normal;}
+
+
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+        width: 100%;
+            height: 300px;
+
+            
+}
+#contato_form, #contato_img{
+width: 45%;
+height: 400px;
+border: 2px solid #888;
+display: inline-block;
+vertical-align: top;
+text-align: left;
+
+}
+main section{
+text-align: center;
+
+}
+#nome,#senha{
+width: 400px;
+margin-bottom: 10px;
+padding: 5px;
+font-size: 100%;
+}
+#op{
+    width: 400px;
+margin-bottom: 10px;
+padding: 5px;
+font-size: 100%;
+}
